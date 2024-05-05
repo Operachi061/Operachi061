@@ -14,7 +14,7 @@ setfun print_three(int[unset:sig,64b,lock,fmt] string) int[unset:pub] {
     setvar end int[unset:nosig,16b,lock] = 4;
     assign new_end = end + 4;
 
-    repeat -> x when (0 > new_end) {
+    repeat -> x until (0 == new_end) {
         <std>::printout("Line @d: \nString: @s", x:string);
     }
 
@@ -29,6 +29,7 @@ setfun main() anyvar[unset:pub,err] {
 
     return new_return;
 }
+
 ```
 
 
