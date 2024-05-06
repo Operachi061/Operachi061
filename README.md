@@ -1,6 +1,9 @@
 # Description
 Hobby programmer loving computers. 
 
+# About Me
+https://operachi061.github.io/aboutme/
+
 # Strict example (may be changed)
 ```
 --[[
@@ -38,7 +41,3 @@ setfun main() anyvar[unset:pub,err] {
 }
 
 ```
-
-
-# About Me
-https://operachi061.github.io/aboutme/
