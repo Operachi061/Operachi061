@@ -1,5 +1,5 @@
 # Description
-Hobby programmer loving computers. 
+good mornin
 
 # About Me
 https://operachi061.github.io/aboutme/
